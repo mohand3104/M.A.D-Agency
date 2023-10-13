@@ -9,7 +9,6 @@ body{
 @media only screen and (max-width: 500px ){
   body{
     overflow-x: hidden;
-
   }
  }
 main{
@@ -34,7 +33,7 @@ header{
   font-size: 25px;
   margin-top: 500px;
 }
-@media (max-width: 500px ){
+@media only screen and  (max-width: 500px ){
   header p{
    margin-left: 30%;
    margin-top: 15px;
@@ -49,17 +48,17 @@ header a {
     margin-left: 345px;
     text-decoration: none;
 }
-@media (max-width: 1400px ){
+@media only screen and  (max-width: 1400px ){
   header a {
     margin-left: 250px;
   }
 }
-@media (max-width: 900px ){
+@media only screen and (max-width: 900px ){
   header a {
     margin-left: 15%;
   }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   header a {
     display: none;
   }
@@ -73,7 +72,7 @@ header a {
     height: 900px;
     position: relative;
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .backround {
     width: 100%;
     height: 400px;
@@ -91,18 +90,18 @@ h1{
     transform: translateY(-30px);
     animation: apparition 0.8s 0.2s ease-out forwards;
 }
-@media (max-width: 1400px){
+@media only screen and  (max-width: 1400px){
   h1{
     margin-left: 300px;
     
   }
 }
-@media (max-width: 900px ){
+@media only screen and  (max-width: 900px ){
   h1 {
     margin-left: 15%;
   }
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   h1{
     margin-top: -300px;
     margin-left: 50px;
@@ -124,18 +123,18 @@ h2{
     animation: apparition 0.8s 0.6s ease-out forwards;
 
 }
-@media (max-width: 1400px){
+@media only screen and  (max-width: 1400px){
   h2{
     margin-left: 300px;
     
   }
 }
-@media (max-width: 900px ){
+@media only screen and  (max-width: 900px ){
   h2 {
     margin-left: 15%;
   }
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   h2{
     margin-left: 50px;
     font-size: 20px;
@@ -151,18 +150,18 @@ h2{
     transform: translateX(30px);
     animation: apparition 0.8s 0.4s ease-out forwards;
 }
-@media (max-width: 1400px){
+@media only screen and  (max-width: 1400px){
   .tel{
     margin-left: 400px;
     
   }
 }
-@media (max-width: 900px ){
+@media only screen and (max-width: 900px ){
   .tel {
     margin-left: 20%;
   }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .tel{
     margin-left: 100px;
     height: 200px;
@@ -183,7 +182,7 @@ h2{
     margin-left: 40%;
     padding-top: 10px;
 }
-@media (max-width: 1400px){
+@media only screen and  (max-width: 1400px){
   .s{
     display: block ;
     margin-left: auto;
@@ -191,12 +190,12 @@ h2{
     text-align: center;
   }
 }
-@media (max-width: 900px ){
+@media only screen and  (max-width: 900px ){
   .s {
     margin-left: 1%;
   }
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .s{
     margin-top: 120px;
     margin-left: 2%;
@@ -211,12 +210,12 @@ h2{
   margin-left: 5%;
   
 }
-@media  (max-width: 1600px){
+@media only screen and   (max-width: 1600px){
   .titre1{
     margin-left: 4%;
   }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .titre1{
     font-size: 1.5em;
   }
@@ -228,12 +227,12 @@ h2{
   font-size: 1.3em;
 
 }
-@media  (max-width: 1600px) {
+@media only screen and  (max-width: 1600px) {
   .text1{
     margin-left: 4%;
   }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .text1{
     font-size:1em ;
   }
@@ -245,13 +244,13 @@ h2{
   border-radius: 5%;
 
 }
-@media  (max-width: 1600px){
+@media only screen and  (max-width: 1600px){
  .un{ 
   margin-right: 7%;
   margin-top:-25% ;
  }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .un{
     position: relative;
     margin-top: 0;
@@ -270,12 +269,12 @@ h2{
   margin-top: 13%;
 
 }
-@media  (max-width: 1600px){
+@media only screen and   (max-width: 1600px){
   .titre2{
     margin-left: 4%;
   }
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .titre2{
     margin-top: 100%;
     font-size: 1.5em;
@@ -287,13 +286,13 @@ h2{
   border-radius: 5%;
   margin-top: 5%;
 
-}@media  (max-width: 1600px){
+}@media only screen and   (max-width: 1600px){
   .deux{
     margin-left: 4%;
     margin-top: 7%;
   }
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .deux{
     width: 50%;
     margin-left: 100px;
@@ -307,13 +306,13 @@ h2{
   font-size: 1.3em;
 
 }
-@media  (max-width: 1600px){
+@media only screen and  (max-width: 1600px){
   .text2{
     font-size: 1.2em;
     margin-right: 2%;
   }
 }
-@media (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .text2{
     font-size: 1em;
   }
@@ -324,7 +323,7 @@ footer{
  margin-top: 100px;
 
 }
-@media  (max-width: 500px){
+@media  only screen and (max-width: 500px){
   footer{
     margin-top: 650px;
   }
@@ -336,7 +335,7 @@ footer{
   padding: 50px 0 100px;
   margin: 0 30px;
 }
-@media (max-width: 500px){
+@media only screen and (max-width: 500px){
   .content-footer{
     display: grid;
     font-size: 15px;
@@ -360,7 +359,7 @@ footer{
   width: 25px;
   vertical-align: baseline;
 }
-@media  (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .lis{
     right: 27px;
   }
@@ -373,7 +372,7 @@ footer a{
   position: relative;
   right: 17px;
 }
-@media  (max-width: 500px){
+@media only screen and  (max-width: 500px){
   footer a{
     font-size: 15px;
     align-items: baseline;
@@ -391,12 +390,12 @@ footer p{
 padding-left: 100px;
 margin-left: 250px;
 }
-@media  (max-width: 1600px){
+@media only screen and  (max-width: 1600px){
   .srv{
     margin-left: 0px;
   }
 }
-@media  (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .srv{
     padding-left: 25%;
   }
@@ -404,7 +403,7 @@ margin-left: 250px;
 .cont{
   padding-left: 100px;
 }
-@media  (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .cont{
     padding-left: 25%;
   }
@@ -412,7 +411,7 @@ margin-left: 250px;
 .rsx{
   padding-left: 100px;
 }
-@media  (max-width: 500px){
+@media only screen and  (max-width: 500px){
   .rsx{
     padding-left: 25%;
   }
