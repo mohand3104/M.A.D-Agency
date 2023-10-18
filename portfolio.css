@@ -1,7 +1,7 @@
 body{
     width: 100%;
     font-family: 'Playfair Display', serif;
-    overflow-x: hidden;
+    overflow-x: auto;
     height: auto;
     padding: 0px;
     margin: 0px;
